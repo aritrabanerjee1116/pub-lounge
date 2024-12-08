@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: "Oswald";
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar .container .nav-logo {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.navbar .container .nav-items {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.navbar .container .nav-items ul {
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav-btn {
+    border: 2px solid white;
+    padding: 15px 50px;
+    color: white;
+}
+
+.nav-btn1 {
+    color: white;
+}
+.nav-btn1:hover{
+    color: #bb3a6d;
+}
+.nav-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Ending of Navbar */
+
+/* Starting of Banner */
+
+
+.bg {
+    background: url(/Images/beer.jpg);
+    /* filter:contrast(1.2);
+    filter: brightness(0.6); */
+    background-size: cover;
+    background-position: center;
+    height: 930px;
+    width: 100%;
+}
+
+.banner .container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .container .text {
+    padding-left: 15px;
+    margin-top: 150px;
+}
+
+.banner .container .text h1 {
+    font-size: 3.875rem;
+    font-weight: 600;
+}
+.banner .container .text .ban-btn{
+    padding: 15px 50px;
+    color: black;
+    background-color: white;
+    flex-grow: 0;
+    text-wrap:wrap;
+}
+.banner .container .text .ban-btn:hover{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+.banner .container .text .inline-text{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.phone-number{
+    flex-grow:0;
+    font-size: 30px;
+}
+
+/* Ending of banner */
+
+/* Floating Customize Button */
+
+.customize-btn {
+    position: fixed;
+    top: 50%;                               
+    transform: translateY(-50%); 
+    background-color: #ffffff;  
+    padding: 10px 25px;
+    color: black;
+    right: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.customize-btn i {
+    color: #2563ea;
+}
+.customize-btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: #2563ea;
+}
+
+
+/*End of Floating Customize Button */
+
+
+/* About us */
+
+p{
+    font-family: sans-serif;
+  
+}
+
+.about .container {
+    margin: 0 auto;
+    display: flex;
+
+}
+.about .container .text {
+    width: 50%;
+    padding-left: 15px;
+}
+.about .container .image {
+    display: flex;
+    width: 50%;
+    padding-right: 15px;
+    justify-content: right ;
+}
+
+/*End of About Us */
+
+
+/* Meet the Host */
+
+.mth {
+    background-color: #1e2329 ;
+}
+.mth .container {
+    display: flex;
+    margin: 0 auto;
+}
+.mth .container .image {
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 60px;
+}
+.mth .container .text {
+    margin-top: 150px;
+    width: 50%;
+    padding-right: 15px;
+}
+
+/* End of Meet The Host (MTH) */
+
+/* Testimonial */
+
+.background{
+    background: url(/Images/testimonial-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+.test{
+  width: 100%;
+}
+.test .container {
+    margin: 0 auto; 
+}
+.test .container .text {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+/* End of Testimonial */
+
+
+/* Menu */
+
+.menu .container {
+    margin: 0 auto;
+    color: black;
+}
+.menu .container img {
+    width: 100%;
+}
+.menu .container-1 {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.menu .container .container-1 .menu-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+    padding-bottom: 30px;
+}
+.menu .container .container-1 .menu-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    border: 1px solid black;
+    padding-bottom: 30px;
+}
+.menu .container-2 {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menu .container .container-2 .menu-3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+    padding-bottom: 30px;
+}
+.menu .container .container-2 .menu-4{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+    padding-bottom: 30px;
+}
